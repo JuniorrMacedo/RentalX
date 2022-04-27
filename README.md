@@ -2,13 +2,11 @@
 
 **RF**
 Deve ser possível cadastrar um novo carro.
-Deve ser ser possível listar todas as categorias.
 
 **RN**
 Não deve ser possível cadastrar um carro com uma placa existente.
-Não deve ser possível alterar a placa de um carro já cadastrado.
 O carro deve ser cadastrado, por padrão, com diponibilidade.
-O usuário responsável pelo cadastro dever ser um usuário administrador.
+* O usuário responsável pelo cadastro dever ser um usuário administrador.
 
 # Listagem de carros
 
@@ -50,8 +48,6 @@ O usuário responsável pelo cadastro dever ser um usuário administrador.
 
 **RF**
 Dever ser possível cadastrar um aluguel
-
-**RNF**
 
 **RN**
 O aluguel deve ter duração mínima de 24 horas.
