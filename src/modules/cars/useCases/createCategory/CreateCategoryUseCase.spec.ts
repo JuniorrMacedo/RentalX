@@ -14,7 +14,7 @@ describe('Create category', () => {
     );
   });
 
-  it('sould be able to create a new category', async () => {
+  it('should be able to create a new category', async () => {
     const category = {
       name: 'Category Test',
       description: 'Category description Test',
@@ -31,7 +31,7 @@ describe('Create category', () => {
     expect(categoryCreated).toHaveProperty('id');
   });
 
-  it('sould not be able to create a new category with name exists', async () => {
+  it('should not be able to create a new category with name exists', async () => {
     expect(async () => {
       const category = {
         name: 'Category Test',
